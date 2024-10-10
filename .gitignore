@@ -1,0 +1,6 @@
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore crash log files
+crash.log
