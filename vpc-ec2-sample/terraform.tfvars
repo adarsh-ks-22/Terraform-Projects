@@ -5,7 +5,7 @@ availability_zone   = "us-east-1a"
 key_name            = "logan-keypair"
 public_key_path     = "/home/aws_support/.ssh/id_rsa.pub"
 ami                 = "ami-04a81a99f5ec58529"
-instance_type       = "t2.micro"
+instance_type       = "t2.small"
 user_data           = <<EOF
 #!/bin/bash
 sudo apt update
